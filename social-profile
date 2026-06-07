@@ -1,0 +1,34 @@
+{
+  "name": "SocialProfile",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "profile_photo_url": {
+      "type": "string"
+    },
+    "banner_url": {
+      "type": "string"
+    }
+  },
+  "required": []
+}
