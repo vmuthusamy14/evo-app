@@ -1,0 +1,53 @@
+{
+  "name": "StyleGuideDoc",
+  "type": "object",
+  "properties": {
+    "colors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "hex": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "primary_font": {
+      "type": "string"
+    },
+    "secondary_font": {
+      "type": "string"
+    },
+    "brand_voice": {
+      "type": "string"
+    },
+    "logo_usage": {
+      "type": "string"
+    },
+    "spacing_notes": {
+      "type": "string"
+    },
+    "custom_sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": []
+}
