@@ -1,0 +1,49 @@
+{
+  "name": "BrandAsset",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "logo",
+        "image",
+        "document"
+      ],
+      "default": "image"
+    },
+    "file_url": {
+      "type": "string"
+    },
+    "file_type": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "pinterest_boards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": {
+    "name",
+    "file_url",
+    "category"
+  }
+}
