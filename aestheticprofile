@@ -1,0 +1,62 @@
+{
+  "name": "AestheticProfile",
+  "type": "object",
+  "properties": {
+    "style_keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "wardrobe_goals": {
+      "type": "string"
+    },
+    "colors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "moodboard_images": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pinterest_boards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "custom_sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": []
+}
